@@ -184,6 +184,9 @@ TARGET_NEEDS_GCC_LIBC := true
 TARGET_NEEDS_GCC_LIBRIL := true
 
 ifeq ($(RECOVERY_VARIANT),twrp)
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+$(error RECOVERY_VARIANT=twrp can only be used with eng build)
+endif
 -include $(COMMON_PATH)/twrp.mk
 endif
 
