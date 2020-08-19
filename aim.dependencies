@@ -1,0 +1,34 @@
+[
+  {
+    "repository": "LineageOS/android_external_stlport",
+    "target_path": "external/stlport"
+  },
+  {
+    "repository": "LineageOS/android_hardware_samsung",
+    "target_path": "hardware/samsung"
+  },
+  {
+    "repository": "LineageOS/android_hardware_samsung_slsi-cm_exynos",
+    "target_path": "hardware/samsung_slsi-cm/exynos"
+  },
+  {
+    "repository": "LineageOS/android_hardware_samsung_slsi-cm_exynos5",
+    "target_path": "hardware/samsung_slsi-cm/exynos5"
+  },
+  {
+    "repository": "LineageOS/android_hardware_samsung_slsi-cm_exynos5410",
+    "target_path": "hardware/samsung_slsi-cm/exynos5410"
+  },
+  {
+    "repository": "LineageOS/android_hardware_samsung_slsi-cm_openmax",
+    "target_path": "hardware/samsung_slsi-cm/openmax"
+  },
+  {
+    "repository": "exynos5410/android_kernel_samsung_exynos5410",
+    "target_path": "kernel/samsung/exynos5410"
+  },
+  {
+    "repository": "LineageOS/android_packages_apps_SamsungServiceMode",
+    "target_path": "packages/apps/SamsungServiceMode"
+  }
+]
