@@ -17,6 +17,9 @@
 
 COMMON_PATH := device/samsung/exynos5410-common
 
+# First API level
+PRODUCT_SHIPPING_API_LEVEL := 17
+
 # overlays
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
 
