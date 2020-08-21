@@ -209,7 +209,6 @@ PRODUCT_COPY_FILES += \
 # TWRP
 ifeq ($(RECOVERY_VARIANT),twrp)
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/recovery/etc/twrp.fstab:recovery/root/etc/twrp.fstab \
     bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 endif
 

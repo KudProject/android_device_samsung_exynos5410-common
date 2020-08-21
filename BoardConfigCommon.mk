@@ -187,6 +187,7 @@ ifeq ($(RECOVERY_VARIANT),twrp)
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 $(error RECOVERY_VARIANT=twrp can only be used with eng build)
 endif
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/recovery/etc/twrp.fstab
 -include $(COMMON_PATH)/twrp.mk
 endif
 
