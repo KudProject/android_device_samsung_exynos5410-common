@@ -183,7 +183,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_NEEDS_GCC_LIBC := true
 TARGET_NEEDS_GCC_LIBRIL := true
 
-ifeq ($(WITH_TWRP),true)
+ifeq ($(RECOVERY_VARIANT),twrp)
 -include $(COMMON_PATH)/twrp.mk
 endif
 

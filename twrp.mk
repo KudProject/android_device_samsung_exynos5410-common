@@ -2,8 +2,6 @@
 ### TWRP RECOVERY
 ###########################################################
 
-RECOVERY_VARIANT := twrp
-
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TARGET_RECOVERY_DEVICE_MODULES += init.recovery.usb.rc
 
