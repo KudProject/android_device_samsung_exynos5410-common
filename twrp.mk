@@ -22,3 +22,7 @@ TW_INCLUDE_CRYPTO := true
 # The kernel has exfat support.
 TW_NO_EXFAT_FUSE := true
 TW_EXCLUDE_SUPERSU := true
+
+# Relink some dependencies
+TARGET_RECOVERY_DEVICE_MODULES += libion_exynos
+TW_RECOVERY_ADDITIONAL_RELINK_FILES += $(TARGET_OUT_SHARED_LIBRARIES)/libion_exynos.so
