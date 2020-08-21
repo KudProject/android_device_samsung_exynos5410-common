@@ -210,6 +210,8 @@ PRODUCT_COPY_FILES += \
 ifeq ($(RECOVERY_VARIANT),twrp)
 PRODUCT_COPY_FILES += \
     bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
+
+-include vendor/kud/config/recovery.mk
 endif
 
 # Device uses high-density artwork where available
