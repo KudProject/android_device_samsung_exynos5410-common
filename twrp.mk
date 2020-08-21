@@ -2,6 +2,8 @@
 ### TWRP RECOVERY
 ###########################################################
 
+TW_THEME := portrait_hdpi
+
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TARGET_RECOVERY_DEVICE_MODULES += init.recovery.usb.rc
 
