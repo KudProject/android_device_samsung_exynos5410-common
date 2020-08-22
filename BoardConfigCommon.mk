@@ -89,6 +89,9 @@ CHARGING_ENABLED_PATH := "/sys/class/power_supply/battery/batt_lp_charging"
 BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
 BOARD_HARDWARE_CLASS += device/samsung/exynos5410-common/cmhw
 
+# Dexpreopt
+WITH_DEXPREOPT := false
+
 # Filesystems
 BLOCK_BASED_OTA := false
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
